@@ -18,8 +18,8 @@ import (
 	utiltesting "k8s.io/client-go/util/testing"
 	"k8s.io/kubectl/pkg/scheme"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube"
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube/proxy"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube/proxy"
 )
 
 func TestHTTP_DoServeHTTP(t *testing.T) {

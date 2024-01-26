@@ -29,18 +29,18 @@ changelog:
       - '^test:'
 release:
   github:
-    owner: omissis
+    owner: sighupio
     name: kube-apiserver-proxy
   name_template: '{{ .Tag }}'
   prerelease: auto
 brews:
   - name: kube-apiserver-proxy
     tap:
-      owner: omissis
+      owner: sighupio
       name: homebrew-kube-apiserver-proxy
     skip_upload: auto
     folder: Formula
-    homepage: 'https://github.com/omissis/kube-apiserver-proxy'
+    homepage: 'https://github.com/sighupio/kube-apiserver-proxy'
     description: 'kube-apiserver-proxy binary'
     test: |
       system "#{bin}/kube-apiserver-proxy"
@@ -49,10 +49,10 @@ brews:
 dockers:
   - skip_push: auto
     image_templates:
-      - "omissis/kube-apiserver-proxy:latest"
-      - "omissis/kube-apiserver-proxy:v{{ .Major }}"
-      - "omissis/kube-apiserver-proxy:v{{ .Major }}.{{ .Minor }}"
-      - "omissis/kube-apiserver-proxy:{{ .Tag }}"
+      - "sighupio/kube-apiserver-proxy:latest"
+      - "sighupio/kube-apiserver-proxy:v{{ .Major }}"
+      - "sighupio/kube-apiserver-proxy:v{{ .Major }}.{{ .Minor }}"
+      - "sighupio/kube-apiserver-proxy:{{ .Tag }}"
     extra_files:
       - internal
       - pkg

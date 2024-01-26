@@ -4,5 +4,5 @@ target-branch: main
 chart-dirs:
   - helm_chart
 chart-repos:
-  - stable=https://github.com/omissis/benth
+  - stable=https://github.com/sighupio/kube-apiserver-proxy
 helm-extra-args: --timeout 600s

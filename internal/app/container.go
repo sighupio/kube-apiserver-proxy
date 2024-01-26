@@ -7,11 +7,11 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/config"
-	httpx "github.com/omissis/kube-apiserver-proxy/pkg/http"
-	"github.com/omissis/kube-apiserver-proxy/pkg/http/middleware"
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube"
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube/proxy"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/config"
+	httpx "github.com/sighupio/kube-apiserver-proxy/pkg/http"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/http/middleware"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube/proxy"
 )
 
 var ErrCannotCreateContainer = fmt.Errorf("cannot create container")

@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	kaspHttp "github.com/omissis/kube-apiserver-proxy/pkg/http"
+	kaspHttp "github.com/sighupio/kube-apiserver-proxy/pkg/http"
 )
 
 type CORSConfig struct {

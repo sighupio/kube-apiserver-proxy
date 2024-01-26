@@ -4,18 +4,18 @@
 >
 > DO NOT CONSIDER IT UNLESS YOU ARE WILLING TO CONTRIBUTE TO IT
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/omissis/kube-apiserver-proxy?style=flat)](https://github.com/omissis/kube-apiserver-proxy/releases/latest)
-[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/omissis/kube-apiserver-proxy/development.yaml?branch=main&style=flat)](https://github.com/omissis/kube-apiserver-proxy/actions?workflow=development)
-[![License](https://img.shields.io/github/license/omissis/kube-apiserver-proxy?style=flat)](/LICENSE)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/omissis/kube-apiserver-proxy?style=flat)](https://tip.golang.org/doc/go1.20)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omissis/kube-apiserver-proxy?style=flat)](https://github.com/omissis/kube-apiserver-proxy)
-[![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/omissis/kube-apiserver-proxy?style=flat)](https://github.com/omissis/kube-apiserver-proxy)
-[![GitHub all releases](https://img.shields.io/github/downloads/omissis/kube-apiserver-proxy/total?style=flat)](https://github.com/omissis/kube-apiserver-proxy)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/omissis/kube-apiserver-proxy?style=flat)](https://github.com/omissis/kube-apiserver-proxy/commits)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sighupio/kube-apiserver-proxy?style=flat)](https://github.com/sighupio/kube-apiserver-proxy/releases/latest)
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/sighupio/kube-apiserver-proxy/development.yaml?branch=main&style=flat)](https://github.com/sighupio/kube-apiserver-proxy/actions?workflow=development)
+[![License](https://img.shields.io/github/license/sighupio/kube-apiserver-proxy?style=flat)](/LICENSE)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/sighupio/kube-apiserver-proxy?style=flat)](https://tip.golang.org/doc/go1.20)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sighupio/kube-apiserver-proxy?style=flat)](https://github.com/sighupio/kube-apiserver-proxy)
+[![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/sighupio/kube-apiserver-proxy?style=flat)](https://github.com/sighupio/kube-apiserver-proxy)
+[![GitHub all releases](https://img.shields.io/github/downloads/sighupio/kube-apiserver-proxy/total?style=flat)](https://github.com/sighupio/kube-apiserver-proxy)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/sighupio/kube-apiserver-proxy?style=flat)](https://github.com/sighupio/kube-apiserver-proxy/commits)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat)](https://conventionalcommits.org)
-[![Codecov](https://img.shields.io/codecov/c/gh/omissis/kube-apiserver-proxy?style=flat&token=lPWlXd3MVK)](https://codecov.io/gh/omissis/kube-apiserver-proxy)
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/omissis/kube-apiserver-proxy?style=flat)](https://codeclimate.com/github/omissis/kube-apiserver-proxy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/omissis/kube-apiserver-proxy)](https://goreportcard.com/report/github.com/omissis/kube-apiserver-proxy)
+[![Codecov](https://img.shields.io/codecov/c/gh/sighupio/kube-apiserver-proxy?style=flat&token=lPWlXd3MVK)](https://codecov.io/gh/sighupio/kube-apiserver-proxy)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/sighupio/kube-apiserver-proxy?style=flat)](https://codeclimate.com/github/sighupio/kube-apiserver-proxy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sighupio/kube-apiserver-proxy)](https://goreportcard.com/report/github.com/sighupio/kube-apiserver-proxy)
 
 This project is a proxy for the Kubernetes API server.
 

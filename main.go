@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/omissis/kube-apiserver-proxy/internal/cmd"
+	"github.com/sighupio/kube-apiserver-proxy/internal/cmd"
 )
 
 //go:generate mockgen -source pkg/kube/config.go -destination pkg/kube/config_mock.gen.go -package kube

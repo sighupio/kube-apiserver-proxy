@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube"
 )
 
 func TestDefaultRESTConfigFactory_New_WithoutCluster(t *testing.T) {

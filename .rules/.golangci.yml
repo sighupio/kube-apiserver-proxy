@@ -75,7 +75,7 @@ linters-settings:
         allow:
           - $gostd
           - github.com/itchyny/gojq
-          - github.com/omissis
+          - github.com/sighupio
           - github.com/stretchr/testify/assert
           - github.com/spf13/cobra
           - github.com/spf13/pflag
@@ -99,7 +99,7 @@ linters-settings:
     sections:
       - standard  # Standard section: captures all standard packages.
       - default  # Default section: contains all imports that could not be matched to another section type.
-      - prefix(github.com/omissis)  # Custom section: groups all imports with the specified Prefix.
+      - prefix(github.com/sighupio)  # Custom section: groups all imports with the specified Prefix.
     skip-generated: true
     custom-order: true
   godot:
@@ -113,7 +113,7 @@ linters-settings:
     lang-version: "1.20"
     extra-rules: true
   goimports:
-    local-prefixes: github.com/omissis
+    local-prefixes: github.com/sighupio
   govet:
     check-shadowing: true
   grouper:

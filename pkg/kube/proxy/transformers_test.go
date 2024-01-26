@@ -5,7 +5,7 @@ package proxy_test
 import (
 	"testing"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube/proxy"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube/proxy"
 )
 
 func TestJqResponseBodyTransformer_Name(t *testing.T) {

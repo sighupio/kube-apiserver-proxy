@@ -1,4 +1,4 @@
-module github.com/omissis/kube-apiserver-proxy
+module github.com/sighupio/kube-apiserver-proxy
 
 go 1.20
 

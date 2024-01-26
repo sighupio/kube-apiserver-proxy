@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/http/middleware"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/http/middleware"
 )
 
 func TestCORS(t *testing.T) {

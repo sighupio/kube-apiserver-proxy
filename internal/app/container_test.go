@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/omissis/kube-apiserver-proxy/internal/app"
+	"github.com/sighupio/kube-apiserver-proxy/internal/app"
 )
 
 func TestHTTPServeMux(t *testing.T) {

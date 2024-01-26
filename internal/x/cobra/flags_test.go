@@ -5,7 +5,7 @@ package cobra_test
 import (
 	"testing"
 
-	"github.com/omissis/kube-apiserver-proxy/internal/x/cobra"
+	"github.com/sighupio/kube-apiserver-proxy/internal/x/cobra"
 )
 
 func TestInitEnvs(t *testing.T) {

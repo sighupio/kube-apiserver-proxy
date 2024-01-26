@@ -13,8 +13,8 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/exp/slog"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/config"
-	kaspHttp "github.com/omissis/kube-apiserver-proxy/pkg/http"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/config"
+	kaspHttp "github.com/sighupio/kube-apiserver-proxy/pkg/http"
 )
 
 var ErrDuringBodyFilter = errors.New("error during body filter")

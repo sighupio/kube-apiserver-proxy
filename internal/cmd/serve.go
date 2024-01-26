@@ -13,8 +13,8 @@ import (
 	"gopkg.in/yaml.v3"
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/omissis/kube-apiserver-proxy/internal/app"
-	"github.com/omissis/kube-apiserver-proxy/pkg/config"
+	"github.com/sighupio/kube-apiserver-proxy/internal/app"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/config"
 )
 
 var ErrParsingFlag = errors.New("cannot parse command-line flag")

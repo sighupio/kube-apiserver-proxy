@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/omissis/kube-apiserver-proxy/internal/app"
-	cobrax "github.com/omissis/kube-apiserver-proxy/internal/x/cobra"
+	"github.com/sighupio/kube-apiserver-proxy/internal/app"
+	cobrax "github.com/sighupio/kube-apiserver-proxy/internal/x/cobra"
 )
 
 type RootCommand struct {

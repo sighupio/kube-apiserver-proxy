@@ -16,7 +16,7 @@ import (
 	utiltesting "k8s.io/client-go/util/testing"
 	"k8s.io/kubectl/pkg/scheme"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube"
 )
 
 func TestNewRESTClientFactory(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/kube"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/kube"
 )
 
 var (

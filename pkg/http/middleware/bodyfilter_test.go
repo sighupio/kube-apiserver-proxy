@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/omissis/kube-apiserver-proxy/pkg/config"
-	"github.com/omissis/kube-apiserver-proxy/pkg/http/middleware"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/config"
+	"github.com/sighupio/kube-apiserver-proxy/pkg/http/middleware"
 )
 
 func TestBodyFilter(t *testing.T) {
