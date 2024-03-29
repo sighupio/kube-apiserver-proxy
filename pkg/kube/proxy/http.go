@@ -79,6 +79,10 @@ func (h *HTTP) DoServeHTTP(ctx context.Context, w http.ResponseWriter, r http.Re
 
 	res := req.Do(cctx)
 
+	if res.Error() != nil {
+		return fmt.Errorf("%w: %w", ErrCannotGetProxiedResponseBody, res.Error())
+	}
+
 	body, err := res.Raw()
 	if err != nil {
 		return fmt.Errorf("%w: %w", ErrCannotGetProxiedResponseBody, err)
